@@ -22,7 +22,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href='https://crimson-britney-92.tiiny.site'
+            href={RajeshResume}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -39,7 +39,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href='https://crimson-britney-92.tiiny.site'
+            href={RajeshResume}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
