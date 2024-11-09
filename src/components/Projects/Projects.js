@@ -49,8 +49,8 @@ function Projects() {
               isBlog={false}
               title="Portfolio"
               description="A personal portfolio built with React to showcase my web development skills. Features include a project gallery, contact form, and smooth navigation with React Router. The design is responsive and mobile-first, with a focus on user experience."
-              //ghLink=""
-              //demoLink="https://editor.soumya-jit.tech/"              
+              ghLink="https://rajeshportfolio-nine.vercel.app/"
+              //demoLink=""              
             />
           </Col>
 
