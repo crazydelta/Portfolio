@@ -34,7 +34,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <h1 style={{fontSize: "15px"}}>@CodeFury</h1>
+          <h1 style={{fontSize: "15px"}}>@RAJESH J</h1>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
