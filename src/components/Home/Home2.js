@@ -20,15 +20,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I'm a full-stack developer specializing in the MERN stack, committed to creating reliable, meaningful websites that tackle real-world problems. My work revolves around crafting user-centered, practical digital solutions, grounded in my technical skills and my ability to adapt quickly to different environments and project needs.
-
-              With a background in AI and innovation, I bring a unique perspective to web development. I don't just code for functionality; I design experiences that resonate with users and address tangible needs. My approach is deeply focused on understanding the challenges people face and translating that understanding into practical, digital solutions that make a difference. Whether it's enhancing financial literacy among Gen Z, simplifying career guidance, or exploring innovative concepts in other sectors, my work prioritizes impact and usability.
-
-              My adaptability is one of my strongest assets. I’ve worked across diverse teams and tackled various projects, each with unique requirements and challenges. This experience has honed my ability to adjust seamlessly to new contexts, technologies, and client demands, making me a reliable team player and problem-solver. I thrive in dynamic, fast-paced environments where I can continuously learn and push my boundaries.
-
-              I also place a strong emphasis on keeping up with industry trends, which fuels my commitment to innovation. Recently, I’ve been working on projects aimed at leveraging AI in career guidance, an area ripe for transformation. My experience with user-centered methodologies and the MERN stack allows me to create platforms that are not just functional but also highly personalized, addressing users’ evolving needs in a way that traditional solutions don’t.
-
-              Ultimately, my work is guided by a mission to build digital products that matter—websites and platforms that go beyond code to provide users with real value. By combining my technical expertise in the MERN stack, a user-first mindset, and a passion for solving meaningful problems, I strive to make a positive impact through technology. I aim to continue refining my skills and exploring new ways to use web development to address relevant, pressing challenges across various sectors.
+            I’m a full-stack developer specializing in the MERN stack, focused on building practical, user-centered digital solutions that solve real-world problems. With a background in AI and innovation, I combine technical expertise and creativity to design websites and platforms that not only function seamlessly but also resonate with users. My work is driven by a commitment to impact, whether it's simplifying career guidance, enhancing financial literacy, or exploring innovative solutions across various sectors. Adaptable and always learning, I thrive in fast-paced environments and am passionate about leveraging technology to create meaningful, lasting change.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
