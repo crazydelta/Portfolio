@@ -37,7 +37,8 @@ function Projects() {
               imgPath={ddg}
               isBlog={false}
               title="DigiDaksha||Digital Marketing Agency"
-              description="This project is was built upon react js for the frontend and for the backend part node js has been used, there are visually appealing and user friendly ui. this project is also a SEO optimized. this was built for a client who want to start a digital marketing agency. i deployed frontend on vercel and configured the domain name with godaddy and as of backend it is deployed on render ,finally the verdict was the client was happy with the work."
+              description="This project was developed using React.js for the frontend and Node.js for the backend. It features a visually appealing and user-friendly UI, along with SEO optimization. The project was created for a client who wanted to launch a digital marketing agency. The frontend was deployed on Vercel, and the domain name was configured through GoDaddy, while the backend was deployed on Render. In the end, the client was very satisfied with the results."
+              ghLink= "https://github.com/crazydelta/DigiDaksha"
               demoLink="https://digidaksha.com/"              
             />
           </Col>
