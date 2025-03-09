@@ -5,6 +5,9 @@ import Particle from "../Particle";
 import abc from "../../Assets/Projects/abc.png";
 import webscraper from "../../Assets/Projects/webscraper.png";
 import ppf from "../../Assets/Projects/ppf.png";
+import ddg from "../../Assets/Projects/ddg.png";
+import ytb from "../../Assets/Projects/ytb.png";
+
 
 function Projects() {
   return (
@@ -28,6 +31,29 @@ function Projects() {
               //demoLink=""
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ddg}
+              isBlog={false}
+              title="DigiDaksha||Digital Marketing Agency"
+              description="This project is was built upon react js for the frontend and for the backend part node js has been used, there are visually appealing and user friendly ui. this project is also a SEO optimized. this was built for a client who want to start a digital marketing agency. i deployed frontend on vercel and configured the domain name with godaddy and as of backend it is deployed on render ,finally the verdict was the client was happy with the work."
+              demoLink="https://digidaksha.com/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ytb}
+              isBlog={false}
+              title="NxtWatch"
+              description="Full stack application built using mern stack. for crud operations Sqlite has been used."
+              ghLink="https://github.com/crazydelta/Portfolio/tree/main"
+              demoLink="https://nxtwatchr.ccbp.tech/"              
+            />
+          </Col>
+
+
 
           <Col md={4} className="project-card">
             <ProjectCard
