@@ -21,12 +21,29 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ytb}
+              isBlog={false}
+              title="NxtWatch"
+              description="The NxtWatch project is a web application designed to provide a seamless user experience with features like user authentication and a responsive interface. It is built with React.js for the frontend, ensuring a dynamic and interactive user interface. The application uses React Router for smooth navigation, while CSS is used for styling, with support for both dark and light themes. The project also incorporates Local Storage for maintaining user session data and preferences. The design is fully responsive, adapting to different screen sizes, and ensures an optimal experience on both desktop and mobile devices. This project demonstrates a solid understanding of modern frontend development with a focus on user-friendly design and performance optimization."
+              ghLink="https://github.com/crazydelta/Portfolio/tree/main"
+              demoLink="https://nxtwatchr.ccbp.tech/"              
+            />
+          </Col>
+
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={abc}
               isBlog={false}
               title="Health Card"
-              description="The Medilink One Health One Card project introduces a unified health card that serves as a centralized repository for medical information, promoting interoperability among healthcare providers and empowering individuals with greater control over their health data."
+              description="Medilink One Health One Card: This repository contains the documentation and source code for the Medilink One Health One Card project. The project aims to provide an integrated healthcare solution that streamlines and enhances the management of health records for individuals.
+
+              Abstract: The Medilink One Health One Card project introduces a unified health card that serves as a centralized repository for medical information, promoting interoperability among healthcare providers and empowering individuals with greater control over their health data.
+
+              Introduction: In the current healthcare landscape, managing and accessing health records can be fragmented and challenging. The Medilink One Health One Card project addresses this issue by introducing a single comprehensive health card that consolidates medical information, facilitates seamless communication between healthcare providers, and improves the overall healthcare experience for individuals."
               ghLink="https://github.com/crazydelta/Medilink-one-health-one-card"
               //demoLink=""
             />
@@ -42,18 +59,6 @@ function Projects() {
               demoLink="https://digidaksha.com/"              
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ytb}
-              isBlog={false}
-              title="NxtWatch"
-              description="The NxtWatch project is a web application designed to provide a seamless user experience with features like user authentication and a responsive interface. It is built with React.js for the frontend, ensuring a dynamic and interactive user interface. The application uses React Router for smooth navigation, while CSS is used for styling, with support for both dark and light themes. The project also incorporates Local Storage for maintaining user session data and preferences. The design is fully responsive, adapting to different screen sizes, and ensures an optimal experience on both desktop and mobile devices. This project demonstrates a solid understanding of modern frontend development with a focus on user-friendly design and performance optimization."
-              ghLink="https://github.com/crazydelta/Portfolio/tree/main"
-              demoLink="https://nxtwatchr.ccbp.tech/"              
-            />
-          </Col>
-
 
 
           <Col md={4} className="project-card">
