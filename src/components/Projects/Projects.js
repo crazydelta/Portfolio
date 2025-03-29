@@ -7,6 +7,7 @@ import webscraper from "../../Assets/Projects/webscraper.png";
 import ppf from "../../Assets/Projects/ppf.png";
 import ddg from "../../Assets/Projects/ddg.png";
 import ytb from "../../Assets/Projects/ytb.png";
+import aicoach from "../../Assets/Projects/aicoach.png";
 
 
 function Projects() {
@@ -21,6 +22,27 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={aicoach}
+              isBlog={false}
+              title="CareerCompassAI"
+              description="I built a Full Stack AI Career Coach using React 19, Next.js 15, Tailwind CSS, NeonDB, Prisma, Clerk, Inngest, Gemini API, and Shadcn UI. This platform provides AI-driven career guidance, resume feedback, and job search strategies. 
+              It features secure authentication, automated workflows, and a sleek UI, making it a powerful tool for professional growth.
+              ->AI-Powered Career Guidance: Uses the Gemini API to provide resume feedback, job search strategies, and skill improvement suggestions.
+
+              ->Secure Authentication: Integrated Clerk for seamless sign-in and user management.
+
+              ->Scalable Database: Utilizes NeonDB with Prisma ORM for efficient data handling.
+
+              ->Automated Workflows: Inngest manages background tasks like email notifications and career progress tracking.
+
+              ->Modern UI/UX: Built with Shadcn UI and Tailwind CSS for a clean, responsive, and accessible design."
+              ghLink="https://github.com/crazydelta/Portfolio/tree/main"
+              demoLink="https://career-compass-ai-eta.vercel.app/"             
+            />
+          </Col>  
 
         <Col md={4} className="project-card">
             <ProjectCard
