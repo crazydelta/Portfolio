@@ -39,7 +39,7 @@ function Projects() {
               ->Automated Workflows: Inngest manages background tasks like email notifications and career progress tracking.
 
               ->Modern UI/UX: Built with Shadcn UI and Tailwind CSS for a clean, responsive, and accessible design."
-              ghLink="https://github.com/crazydelta/Portfolio/tree/main"
+              ghLink="https://github.com/crazydelta/CareerCompassAI"
               demoLink="https://career-compass-ai-eta.vercel.app/"             
             />
           </Col>  
@@ -50,7 +50,7 @@ function Projects() {
               isBlog={false}
               title="NxtWatch"
               description="The NxtWatch project is a web application designed to provide a seamless user experience with features like user authentication and a responsive interface. It is built with React.js for the frontend, ensuring a dynamic and interactive user interface. The application uses React Router for smooth navigation, while CSS is used for styling, with support for both dark and light themes. The project also incorporates Local Storage for maintaining user session data and preferences. The design is fully responsive, adapting to different screen sizes, and ensures an optimal experience on both desktop and mobile devices. This project demonstrates a solid understanding of modern frontend development with a focus on user-friendly design and performance optimization."
-              ghLink="https://github.com/crazydelta/Portfolio/tree/main"
+              ghLink="https://github.com/crazydelta/NxtWatch"
               demoLink="https://nxtwatchr.ccbp.tech/"              
             />
           </Col>
