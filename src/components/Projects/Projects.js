@@ -8,6 +8,7 @@ import ppf from "../../Assets/Projects/ppf.png";
 import ddg from "../../Assets/Projects/ddg.png";
 import ytb from "../../Assets/Projects/ytb.png";
 import aicoach from "../../Assets/Projects/aicoach.png";
+import aipipeline from "../../Assets/Projects/aipipeline.png";
 
 
 function Projects() {
@@ -42,7 +43,7 @@ function Projects() {
               ghLink="https://github.com/crazydelta/CareerCompassAI"
               demoLink="https://career-compass-ai-eta.vercel.app/"             
             />
-          </Col>  
+          </Col> 
 
         <Col md={4} className="project-card">
             <ProjectCard
@@ -70,6 +71,19 @@ function Projects() {
               //demoLink=""
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={aipipeline}
+              isBlog={false}
+              title="AiSalesPipeline"
+              description="Built an AI-powered Sales Pipeline Tracker using React, Node.js, and MongoDB.
+              Integrated Cohere-based assistant for smart follow-ups, natural language deal updates, and JSONimport.
+              Features include Kanban board, JWT auth, dashboard analytics, and deployment on Vercel &Render. sample login {emial: 123@gmail.com, password: 12345}"
+              ghLink="https://github.com/crazydelta/aipipeline"
+              demoLink="https://aipipeline.onrender.com/login"             
+            />
+          </Col>  
 
           <Col md={4} className="project-card">
             <ProjectCard
